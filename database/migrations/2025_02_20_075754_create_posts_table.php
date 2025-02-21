@@ -18,6 +18,8 @@ return new class extends Migration
             $table->string('seo_title');
             $table->string('seo_description');
             $table->string('heading');
+            $table->mediumText('short_description');
+            $table->string('image');
             $table->text('body');
             $table->timestamps();
         });

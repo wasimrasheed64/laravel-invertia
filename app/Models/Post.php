@@ -18,6 +18,8 @@ class Post extends Model
         'seo_description',
         'heading',
         'body',
+        'image',
+        'short_description'
     ];
 
     public function user(){
